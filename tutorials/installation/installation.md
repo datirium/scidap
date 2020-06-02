@@ -6,7 +6,8 @@ In order to run the analysis [scidap.com](https://scidap.com) needs access to a 
 and authorized access to the `scidap-satellite` installation. There are two types of `scidap-satellite` installation: per laboratory and corporate.
 *For corporate installation please contact us*
 
-**All laboratory members** can add the analysis and view the results. **Do not invite strangers** to the laboratory.
+**All laboratory members** can add the analysis and view the results. **Do not invite strangers** to the laboratory. 
+
 
 Datirium provides `scidap-satellite` bundle to simplify setup process. Otherwise
 all it components must be installed and configured manually. `scidap-satellite` includes pre configured open-source software:
