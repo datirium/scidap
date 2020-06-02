@@ -1,5 +1,6 @@
 ## The chromatin immunoprecipitation (ChIP) assay
 
+
 ### Description
 
 The chromatin immunoprecipitation (ChIP) assay is the gold standard technique to analyze the binding of transcription factors and cofactors to DNA and the localization of histones and histone modifications throughout the genome.
@@ -14,9 +15,12 @@ The CUT&Tag method is a variation of Active Motif’s patented TAM-ChIP™ techn
 
 CUT&Tag shows a lot of promise and has the potential to alleviate some ChIP limitations, but it also has its own set of limitations that must be considered. This article covers what CUT&Tag is and describes the advantages and drawbacks of this method.
 
-### ChIP-Seq analysis in SciDAP
+#### ChIP-Seq analysis in SciDAP
+
 
 [![ChIP-Seq](http://img.youtube.com/vi/6Fs3xb9fXII/0.jpg)](http://www.youtube.com/watch?v=6Fs3xb9fXII "ChIP-Seq analysis in SciDAP")
 
+
+#### View ChIP-Seq results in SciDAP
 
 [![ChIP-Seq](http://img.youtube.com/vi/K7b7ieJlol4/0.jpg)](http://www.youtube.com/watch?v=K7b7ieJlol4 "View ChIP-Seq results in SciDAP")
