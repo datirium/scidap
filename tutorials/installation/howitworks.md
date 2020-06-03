@@ -2,9 +2,9 @@
 
 ### Overview
 
-SciDAP is a data analysis, management and visualization system consists of master server with web interface (https://scidap.com/) and clients (satellites) that  are installed on users hardware (server/cluster/cloud). SciDAP Master Server stores and organizes experiment's description and results. SciDAP-satellite (client) is the actual analysis executor is running on desktops, laptops, servers, clusters, clouds in linux, windows, mac os x operational systems.
+SciDAP is a data analysis, management and visualization system that consists of master server with web interface (https://scidap.com/) and clients (satellites) that are installed on user's hardware (server/cluster/cloud). SciDAP Master Server keeps up today web interface, stores and organizes experiment's description and data analysis pipelines in [CWL](https://commonwl.org) format. SciDAP-satellite (client) is the actual analysis executor that runs on desktops, laptops, servers, clusters, clouds with linux, windows, mac os x operational systems.
 
-SciDAP-satellite is the user's back-end data analysis server component of SciDAP platform, free of charge. It executes CWL pipelines by CWL-Airflow, downloads requested data files e.g. from GEO or other urls by aria2c. It provides authorized access to a requested data (raw and analysed) from SciDAP master server by JWT tokens. In order to receive commands from master server satellite need access to the Internet. However, in order to work with satellite from the web interface (https://scidap.com/) for a user the satellite does not need public access from the Internet but have to be accessible within the same local network.
+SciDAP-satellite is a free back-end data analysis component of SciDAP platform. It downloads requested data files e.g. from GEO or other urls with aria2c and executes CWL pipelines with CWL-Airflow. It provides authorized access to a requested data (raw and analyzed) from SciDAP master server by JWT tokens. In order to receive commands from the master server your satellite needs access to the Internet. However, in order to work with satellite from the web interface (https://scidap.com/) for a user the satellite does not need public access from the Internet but have to be accessible within the same local network.
 
 
 ### Software
