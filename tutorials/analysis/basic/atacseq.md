@@ -13,7 +13,7 @@ ATAC-Seq utilizes a Tn5 transposase enzyme which has been modified for hyperacti
 
 ### ATAC-Seq analysis in SciDAP
 
-[![ATAC-Seq](https://i9.ytimg.com/vi/nsTgTe6fe9c/mqdefault.jpg?sqp=CJCC3fYF&rs=AOn4CLCiSsv6vUAd9NQcAN6VOz_N7DfEPA)](http://www.youtube.com/watch?v=nsTgTe6fe9c "ATAC-Seq")
+[![ATAC-Seq](http://img.youtube.com/vi/nsTgTe6fe9c/0.jpg)](http://www.youtube.com/watch?v=nsTgTe6fe9c "ATAC-Seq")
 
 
 ### References
