@@ -1,8 +1,7 @@
 ## The chromatin immunoprecipitation (ChIP) assay
 
 
-### Description
-
+### ChIP-Sequencing
 
 Chromatin Immuno-precipitation and Sequencing (ChIP-Sequencing)[[1](#references)] is widely used in the study of DNA-protein interactions. This method is used to identify the DNA binding targets of transcription factors across the genome, providing the researcher with a catalogue of DNA elements regulated by the protein of interest. Histone modifications are also widely assayed using this technique, and give insight into the structure and activation status of nearby genes. Many variations of this technique are also available, and may be more suitable depending on the research question at hand and material availability.
 
@@ -14,7 +13,6 @@ ChIP-Sequencing begins with the harvesting and fixation of the cell type of inte
 
 
 ### ChIP-Seq analysis in SciDAP
-
 
 [![ChIP-Seq](http://img.youtube.com/vi/6Fs3xb9fXII/0.jpg)](http://www.youtube.com/watch?v=6Fs3xb9fXII "ChIP-Seq analysis in SciDAP")
 
