@@ -4,9 +4,9 @@
 ### Description
 
 
-Chromatin Immuno-precipitation and Sequencing (ChIP-Sequencing) [1] is widely used in the study of DNA-protein interactions. This method is used to identify the DNA binding targets of transcription factors across the genome, providing the researcher with a catalogue of DNA elements regulated by the protein of interest. Histone modifications are also widely assayed using this technique, and give insight into the structure and activation status of nearby genes. Many variations of this technique are also available, and may be more suitable depending on the research question at hand and material availability.
+Chromatin Immuno-precipitation and Sequencing (ChIP-Sequencing)[1](#references) is widely used in the study of DNA-protein interactions. This method is used to identify the DNA binding targets of transcription factors across the genome, providing the researcher with a catalogue of DNA elements regulated by the protein of interest. Histone modifications are also widely assayed using this technique, and give insight into the structure and activation status of nearby genes. Many variations of this technique are also available, and may be more suitable depending on the research question at hand and material availability.
 
-ChIP-Sequencing has provided landmark insights in genome biology and gene regulatory understanding. A large database of ChIP-Sequencing experiments is available through the ENCODE project. Dr. Barski’s longstanding interest in methods development and DNA-protein interactions has yielded numerous publications utilizing this technology. [2–5]
+ChIP-Sequencing has provided landmark insights in genome biology and gene regulatory understanding. A large database of ChIP-Sequencing experiments is available through the ENCODE project. Dr. Barski’s longstanding interest in methods development and DNA-protein interactions has yielded numerous publications utilizing this technology[2–5](#references).
 
 ### Method:
 
