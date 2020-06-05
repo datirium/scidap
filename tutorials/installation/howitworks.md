@@ -6,6 +6,8 @@ SciDAP is a data analysis, management and visualization system that consists of 
 
 SciDAP-satellite is a free back-end data analysis component of SciDAP platform. It downloads requested data files e.g. from GEO or other urls with aria2c and executes CWL pipelines with CWL-Airflow. It provides authorized access to a requested data (raw and analyzed) from SciDAP master server by JWT tokens. In order to receive commands from the master server your satellite needs access to the Internet. However, in order to work with satellite from the web interface (https://scidap.com/) for a user the satellite does not need public access from the Internet but have to be accessible within the same local network.
 
+![scidap-satellite explained](https://raw.githubusercontent.com/datirium/scidap/master/tutorials/installation/satellite-explained.svg)
+
 
 ### Software
 
