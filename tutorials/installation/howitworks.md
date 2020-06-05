@@ -17,8 +17,8 @@ and authorized access to the `scidap-satellite` installation. There are two type
 
 **All laboratory members** can add the analysis and view the results. **Do not invite strangers** to the laboratory.
 
-Datirium provides `scidap-satellite` bundle to simplify setup process on Mac OS X. On other OSes user have to install and configure
-all its components manually. `scidap-satellite` includes pre configured open-source software:
+Datirium provides `scidap-satellite` bundle to simplify setup process on Mac OS X.
+On other OSes all its components have to be installed and configured manually. `scidap-satellite` includes pre configured open-source software:
 
 * [CWL-Airflow](https://github.com/Barski-lab/cwl-airflow) - python3 pipeline manager
 * [aria2c](https://aria2.github.io/) - download manager
