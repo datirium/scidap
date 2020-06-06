@@ -17,7 +17,7 @@ Change the default [preferences](https://docs.docker.com/docker-for-mac/#prefere
 
 ### Installation video
 
-[![installation](http://img.youtube.com/vi/HvOBZuABVeM/0.jpg)](http://www.youtube.com/watch?v=HvOBZuABVeM "How to install")
+[![installation](https://img.youtube.com/vi/HvOBZuABVeM/0.jpg)](https://www.youtube.com/watch?v=HvOBZuABVeM "How to install")
 
 
 ### Finale

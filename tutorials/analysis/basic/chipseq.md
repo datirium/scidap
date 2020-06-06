@@ -14,12 +14,12 @@ ChIP-Sequencing begins with the harvesting and fixation of the cell type of inte
 
 ### ChIP-Seq analysis in SciDAP
 
-[![ChIP-Seq](http://img.youtube.com/vi/6Fs3xb9fXII/0.jpg)](http://www.youtube.com/watch?v=6Fs3xb9fXII "ChIP-Seq analysis in SciDAP")
+[![ChIP-Seq](https://img.youtube.com/vi/6Fs3xb9fXII/0.jpg)](https://www.youtube.com/watch?v=6Fs3xb9fXII "ChIP-Seq analysis in SciDAP")
 
 
 ### View ChIP-Seq results in SciDAP
 
-[![ChIP-Seq](http://img.youtube.com/vi/K7b7ieJlol4/0.jpg)](http://www.youtube.com/watch?v=K7b7ieJlol4 "View ChIP-Seq results in SciDAP")
+[![ChIP-Seq](https://img.youtube.com/vi/K7b7ieJlol4/0.jpg)](https://www.youtube.com/watch?v=K7b7ieJlol4 "View ChIP-Seq results in SciDAP")
 
 ### References
 

@@ -6,6 +6,10 @@ Differential gene expression analysis based on the negative binomial distributio
 
 Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.
 
+### How to perform differential gene expression analysis in SciDAP
+
+[![DESeq](https://img.youtube.com/vi/ZJbiIxcnKzU/0.jpg)](https://youtu.be/ZJbiIxcnKzU "Differential Gene Expression Analysis")
+
 ### DESeq1
 
 High-throughput sequencing assays such as RNA-Seq, ChIP-Seq or barcode counting provide quantitative readouts
@@ -24,7 +28,3 @@ suitable statistical approach. [DESeq2](http://www.bioconductor.org/packages/rel
 a method for differential analysis of count data,
 using shrinkage estimation for dispersions and fold changes to improve stability and interpretability of estimates.
 This enables a more quantitative analysis focused on the strength rather than the mere presence of differential expression.
-
-### How to use in SciDAP
-
-[![DESeq](http://img.youtube.com/vi/ZJbiIxcnKzU/0.jpg)](http://www.youtube.com/watch?v=ZJbiIxcnKzU "Differential Gene Expression Analysis")
