@@ -1,11 +1,13 @@
 ## Ribonucleic acid sequencing
 
+### Overview
+
 RNA-seq (RNA-sequencing) is a technique that helps to quantify RNA in a sample using next generation sequencing (NGS). It analyzes the transcriptome of gene expression patterns encoded within our RNA. Here, we look at why RNA-seq is useful, how the technique works, and the basic protocol which is commonly used today.
 A typical RNA-seq experimental workflow involves the isolation of RNA from samples of interest, generation of sequencing libraries, use of a high-throughput sequencer to produce hundreds of millions of short paired-end reads, alignment of reads against a reference genome or transcriptome, and downstream analysis for expression estimation, differential expression, transcript isoform discovery, and other applications.
 
 A typical gene expression and differential expression analysis has several common themes across different tool sets and RNA-seq analysis goals. RNA-seq analysis typically relies on inputs such as reference genome sequences, gene annotations, and raw sequence data. Working with these inputs requires familiarity with several standardized file formats such as FASTA (.fa), FASTQ, and gene transfer format (GTF). Typical RNA-seq analysis workflows start with raw data quality control (QC), then perform read trimming, alignment or assembly of reads, apply customized algorithms for a particular analysis goal (e.g., Cufflinks and Cuffdiff for gene expression analysis), and end with summarization and visualization of the results.
 
-## SciDAP RNA-Seq workflow
+### SciDAP RNA-Seq workflow
 
 Current workflow consist of the following steps:
 1. Trim adapters from input FASTQ files
