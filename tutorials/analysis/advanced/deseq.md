@@ -2,9 +2,11 @@
 
 ### Description
 
-This is our main pipeline for comparing gene expression between two conditions. If replicates exist, the pipeline will use DEseq2, for monoplicates the pipeline will use DEseq1. Of course, for monoplicates the p-value will be technical and will not reflect biological variability. The pipeline also produces PCA plots based DEseq normalized read count data.
+This is our main pipeline for comparing gene expression between two conditions. If replicates are provided, the pipeline will use DEseq2, for monoplicates the pipeline will use DEseq1. Of course, for monoplicates the p-value will be technical and will not reflect biological variability. The pipeline also produces PCA plots based DEseq normalized read count data.
 
-DEseq analysis is based on the negative binomial distribution.
+
+
+Both DEseq 1 and 2 analyses are based on the negative binomial distribution.
 
 
 
