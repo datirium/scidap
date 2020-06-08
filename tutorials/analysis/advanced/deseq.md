@@ -31,4 +31,4 @@ This enables a more quantitative analysis focused on the strength rather than th
 
 ### How to use in SciDAP
 
-[![DESeq](http://img.youtube.com/vi/ZJbiIxcnKzU/0.jpg)](http://www.youtube.com/watch?v=ZJbiIxcnKzU "Differential Gene Expression Analysis")
+[![DESeq](https://img.youtube.com/vi/ZJbiIxcnKzU/0.jpg)](https://www.youtube.com/watch?v=ZJbiIxcnKzU "Differential Gene Expression Analysis")
