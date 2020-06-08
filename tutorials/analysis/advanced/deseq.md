@@ -9,6 +9,9 @@ This is our main pipeline for comparing gene expression between two conditions. 
 Both DEseq 1 and 2 analyses are based on the negative binomial distribution.
 
 
+### How to perform differential gene expression analysis in SciDAP
+
+[![DESeq](https://img.youtube.com/vi/ZJbiIxcnKzU/0.jpg)](https://youtu.be/ZJbiIxcnKzU "Differential Gene Expression Analysis")
 
 ### DESeq1
 
@@ -28,7 +31,3 @@ suitable statistical approach. [DESeq2](http://www.bioconductor.org/packages/rel
 a method for differential analysis of count data,
 using shrinkage estimation for dispersions and fold changes to improve stability and interpretability of estimates.
 This enables a more quantitative analysis focused on the strength rather than the mere presence of differential expression.
-
-### How to use in SciDAP
-
-[![DESeq](https://img.youtube.com/vi/ZJbiIxcnKzU/0.jpg)](https://www.youtube.com/watch?v=ZJbiIxcnKzU "Differential Gene Expression Analysis")
