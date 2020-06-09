@@ -3,7 +3,7 @@
 ### Overview
 
 SciDAP  consists of a central server (https://scidap.com/) that provides user interface and data processing and storage satellites. The satellite is typically installed on your hardware or cloud service. This can be a desktop, laptop, server, cluster or cloud running MacOs X, Linux or Windows operating systems. Alternatively, we can provide users with access to our satellite to try out SciDAP.
-This design allows us provide users with the most up to date interface and quickly deploy new pipelines through the central server. At the same time, the data are kept on satellites that are controlled by users reducing HIPAA and data security concerns. The users can access SciDAP from any computer by logging into (https://scidap.com/).
+This design allows us provide users with the most up to date interface and quickly deploy new pipelines through the central server. At the same time, to reduce HIPAA and data security concerns, the data are kept on satellites that are controlled by users and do not leave user's network. The users can access SciDAP from any computer by logging into (https://scidap.com/).
 
 Technical details: SciDAP-satellite is the back-end data analysis and storage component of SciDAP platform. It downloads requested data files e.g. from GEO or other urls with aria2c and executes CWL pipelines with CWL-Airflow. It provides authorized access to data (raw and analyzed) via the interface SciDAP central server authorized by secure JWT tokens. In order to receive commands from the master server your satellite needs access to the Internet. However, the satellite does not need to be accessible from the Internet: in order to work with a satellite, the user needs to be in the same local network.
 
