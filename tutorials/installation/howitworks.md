@@ -19,7 +19,7 @@ SciDAP serves as a data processing and exchange center for the whole laboratory 
 ### Satellite software 
 
 
-To perform the analysis [scidap.com](https://scidap.com) uses a private `scidap-satellite` installation. There are two types of `scidap-satellite` installation: single laboratory and institutional. See instructions for a single laboratory installation on the [tutorials page] (https://scidap.com/tutorials)
+To perform the analysis [scidap.com](https://scidap.com) uses a private `scidap-satellite` installation. There are two types of `scidap-satellites`: single laboratory and institutional. See instructions for a single laboratory installation on the [tutorials page](https://scidap.com/tutorials).  We recommend **at least 32GB** per processing unit.
 *For institutional installation please contact us*
 
 
@@ -30,18 +30,16 @@ On other OSes all its components have to be installed and configured manually. `
 * [aria2c](https://aria2.github.io/) - Download manager
 * [MongoDB 4.2.x](https://www.mongodb.com/download-center/community) - NoSQL database
 * [BioWardrobe-NG](https://github.com/Barski-lab/biowardrobe-ng) - Micro-service for sending commands from scidap.com to CWL-Airflow
-* [pm2.io](pm2.io) - process management [https://github.com/Unitech/pm2](https://github.com/Unitech/pm2)
+* [pm2.io](https://github.com/Unitech/pm2) - process management 
 
-The analysis runs on your hardware (where `scidap-satellite` is installed - desktop/server/cluster or cloud).
-Some of our pipelines require at least 24GB of memory. We recommend **at least 32GB** per processing unit.
 
-### Data exchange
+### What data is exchanged between SciDAP.com and satellites
 
-[scidap.com](https://scidap.com) can start a pipeline from any place with the Internet. However, to access all the results a **direct connection**
+By logging into [scidap.com](https://scidap.com), you can start a pipeline from anywhere. However, to access all the results a **direct connection** from your computer to
 to the satellite is required.
 Only limited information is transferred between a `scidap-satellite` installation and [scidap.com](https://scidap.com):
 
 * Sample's metadata
-* Sample's [CWL](https://www.commonwl.org/) file (CWL files can be checked at [https://github.com/datirium/workflows](https://github.com/datirium/workflows))
+* Sample's [CWL](https://www.commonwl.org/) pipeline file (CWL files can be checked at [https://github.com/datirium/workflows](https://github.com/datirium/workflows))
 * Sample's status like running, failed, finished
 * Sample's mapping statistics for basic analysis
