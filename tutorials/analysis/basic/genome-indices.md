@@ -1,10 +1,12 @@
-## Reference genome indexing
+## Adding genomes
 
 ### Description
 
-Mapping of large sets of high-throughput sequencing reads to a reference genome is one of the foundational steps in RNA-seq/ChIP-Seq data analysis. The mapping software e.g. [STAR](https://github.com/alexdobin/STAR), [bowtie](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml), [kallisto](https://pachterlab.github.io/kallisto/manual) packages perform this task with high levels of accuracy and speed. To achieve it mapping tools at first have to build indices of reference genomes and than use pre-computed indices for aligning short reads utilizing the index as a guide. This is the first step of many comparative genomics workflows, including variant detection and digital gene expression. In what follows, the term read refers to a short DNA sequence, typically as output by a sequencing instrument.
+Mapping of large sets of high-throughput sequencing reads to a reference genome is one of the first steps in NGS data analysis. Read mapping software e.g. [STAR](https://github.com/alexdobin/STAR), [bowtie](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml), [kallisto](https://pachterlab.github.io/kallisto/manual) packages perform this task with high levels of accuracy and speed. To achieve this high speed mapping tools at first have to build indices of reference genomes and than use pre-computed indices for aligning short reads utilizing the index as a guide. Thus creating indices is the first step of many comparative genomics workflows, including variant detection and  gene expression. 
 
-In SciDAP this task runs once for each genome of interest. It creates indices and annotations for all downstream tools that are used in later analyses such as transcript/gene expression quantification, chromatin enrichment, etc.
+In SciDAP this task needs to be performed once for each genome of interest. It creates indices and annotations for all downstream tools that are used in analyses such as transcript/gene expression quantification, chromatin enrichment, etc.
+
+For the most commonly used genomes (e.g. human and mouse), we provide indices as part of installation package. Let us know if you are interested in other genomes and we will add them. To install genomes manually, please follow the instructions below.
 
 ### Details
 
