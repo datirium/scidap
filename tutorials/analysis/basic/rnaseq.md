@@ -16,7 +16,7 @@ Current workflow consist of the following steps:
 4. Use samtools sort to generate coordinate sorted BAM(+BAI) file pair from the unsorted BAM file obtained on the step 1 (after running STAR).
 5. Generate BigWig file based on the sorted BAM file. For the dUTP/strand-specific pipelines  bigwig files for each strand will be produced. Please note that the reads map to the _opposite strand_.
 6. Map input FASTQ files to predefined rRNA reference indices using Bowtie to define the level of rRNA contamination; export resulting statistics to file.
-7. Calculate isoform expression level for the sorted BAM file and GTF/TAB annotation file using GEEP reads-counting utility; export results to file.
+7. Calculate isoform expression level for the sorted BAM file and GTF/TAB annotation file using GEEP reads-counting utility; export results to a file.
 
 ### Video performing RNA-Seq analysis in SciDAP
 
