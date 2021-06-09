@@ -11,7 +11,7 @@ For Linux-family operating systems **scidap-satellite** is shipped in a form of 
    curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -  # to get Node 12.X and npm
    sudo apt-get install nodejs
    ```
-- Install **PM2** process manager ([see details here](https://github.com/Unitech/pm2))
+- Install **PM2** process manager ([see details here](https://github.com/Unitech/pm2#installing-pm2))
    ```bash
    npm install pm2 -g
    ```
