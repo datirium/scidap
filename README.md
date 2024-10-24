@@ -8,7 +8,7 @@ Free public satellite can be used for educational purposes. The data and samples
 Do not use private data. We are not responsible for data safety.
 Public satellite is limited by memory and cpu power.
 
-[To start using public satellite go to profiles settings.](platform/profile/satellites)
+<!-- [To start using public satellite go to profiles settings.](platform/profile/satellites)
 
 ### How SciDAP works
 
@@ -58,4 +58,4 @@ Follow instructions for each required package:
 ### Windows users
 
 Please contact us for installation instructions
-
+ -->
