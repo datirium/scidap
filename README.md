@@ -8,11 +8,11 @@ Free public satellite can be used for educational purposes. The data and samples
 Do not use private data. We are not responsible for data safety.
 Public satellite is limited by memory and cpu power.
 
-[To start using public satellite go to profiles settings.](platform/profile/satellites)
+<!-- [To start using public satellite go to profiles settings.](platform/profile/satellites)
 
 ### How SciDAP works
 
-How it works details can be found at [https://scidap.com/tutorials/installation/howitworks](https://scidap.com/tutorials/installation/howitworks).
+How it works details can be found at [https://scidap.com/how-scidap-works.html](https://scidap.com/how-scidap-works.html).
 
 In order to run the analysis [scidap.com](https://scidap.com) needs access to a private `scidap-satellite` installation. SciDAP provides a limited
 and authorized access to the `scidap-satellite` installation. There are two types of `scidap-satellite` installation: per laboratory and corporate.
@@ -43,23 +43,6 @@ Limited information is transferred between a `scidap-satellite` installation and
 * Sample's status like running, failed, finished
 * Sample's mapping statistics for basic analysis
 
-### Mac users
-
-OSX must be version 10.15 or newer: i.e. Catalina (10.15) or Big Sur (11.2.1).
-Mac hardware must be a 2013 or a newer model with at least 32GB of RAM. *We recommend 2018 [Mac mini](https://www.apple.com/mac-mini/specs/)
-with 6-core i7 CPU and 32GB or 64GB memory.*
-
-Download and install [Docker](https://hub.docker.com/editions/community/docker-ce-desktop-mac)
-and [scidap-satellite]() (current version)
-
-Change the default [preferences](https://docs.docker.com/docker-for-mac/#preferences#resources) for Docker
-([docs](https://docs.docker.com/docker-for-mac/#preferences#resources))
-
-* CPUs number - 2 or more
-* Memory - 24GB or more (leave about 6GB to OSX)
-
-Once the software is installed and launched you can go back to [scidap.com satellite settings](/platform/profile/satellites) add available genomes
-and start the analysis.
 
 ### Linux users
 
@@ -75,4 +58,4 @@ Follow instructions for each required package:
 ### Windows users
 
 Please contact us for installation instructions
-
+ -->
